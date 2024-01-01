@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "cypress": "^13.6.2"
+  },
+  "scripts": {
+    "cypress:run": "cypress run --spec 'cypress/e2e/Login.cy.js,cypress/e2e/ChooseProduct.cy.js'"
   }
+  
 }
