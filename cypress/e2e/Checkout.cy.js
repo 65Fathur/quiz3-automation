@@ -25,17 +25,6 @@ describe('Checkout', () => {
         cy.wait(3000);       
         cy.get('.checkout-methods-items > :nth-child(1) > .action').click();  
         cy.wait(3000); 
-/*        cy.get('[name="shippingAddress.company"]').type(Cypress.env('PERUSAHAAN'));
-        cy.get('[name="street[0]"]').type(Cypress.env('JALAN1'));
-        cy.get('[name="shippingAddress.city"]').type(Cypress.env('KOTA'));
-        cy.wait(3000); 
-        cy.get('[name="country_id"]').type('ID');
-        cy.wait(3000); 
-        cy.get('[name="region_id"]').type(Cypress.env('PROVINSI'));
-        cy.get('[name="shippingAddress.postcode"]').type(Cypress.env('KODEPOS'));
-        cy.get('[name="shippingAddress.telephone"]').type(Cypress.env('NOHP'));
-//      Process
-*/      cy.wait(3000);   
         cy.get(':nth-child(1) > :nth-child(1) > .radio').click();       
         cy.get('.button').click();
         cy.wait(3000); 
